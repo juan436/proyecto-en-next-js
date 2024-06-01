@@ -26,6 +26,7 @@ export default function Home() {
 
       <h1>Hello World {user}</h1>
       <button onClick={() => router.push("/blog")}>Click here</button>
+      <button onClick={() => router.push("/login-form")}>Click here</button>
       {/* <Link href="">go to Blogs</Link> */}
     </main>
   );
