@@ -17,6 +17,9 @@ export default function Home() {
   }, [user]);
 
   const router = useRouter();
+  const navigation = (blog) => {
+    router.push("/blog/" + blog)
+  }
   return (
     <main className={styles.main}>
       {/* <Page name="first" />
@@ -25,8 +28,8 @@ export default function Home() {
       <Page name="fourth" /> */}
 
       <h1>Hello World {user}</h1>
-      <button onClick={() => router.push("/blog")}>Click here</button>
-      <button onClick={() => router.push("/login-form")}>Click here</button>
+      <button onClick={() => navigation("newblog")}>Click here blog-new</button>
+      {/* <button onClick={() => router.push("/login-form")}>Click here</button> */}
       {/* <Link href="">go to Blogs</Link> */}
     </main>
   );
