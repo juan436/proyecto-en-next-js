@@ -25,7 +25,7 @@ export default function Home() {
       {/* <Page name="first" />
       <Page name="second" />
       <Page name="third" />
-      <Page name="fourth" /> */}s
+      <Page name="fourth" /> */}
 
       <h1>Hello World {user}</h1>
       <button onClick={() => navigation("newblog")}>Click here blog-new</button>
