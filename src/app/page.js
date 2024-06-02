@@ -29,7 +29,7 @@ export default function Home() {
 
       <h1>Hello World {user}</h1>
       <button onClick={() => navigation("newblog")}>Click here blog-new</button>
-      {/* <button onClick={() => router.push("/login-form")}>Click here</button> */}
+      <button onClick={() => router.push("/login-form")}>Click here login</button>
       {/* <Link href="">go to Blogs</Link> */}
     </main>
   );
