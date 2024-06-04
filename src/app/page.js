@@ -31,6 +31,7 @@ export default function Home() {
       <button onClick={() => navigation("newblog")}>Click here blog-new</button>
       <button onClick={() => router.push("/login-form")}>Click here login</button>
       <button onClick={() => router.push("/API")}>Click here to API</button>
+      <button onClick={() => router.push("/serverAPI")}>Click here to serverAPI</button>
       {/* <Link href="">go to Blogs</Link> */}
     </main>
   );
